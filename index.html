@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header class="mt-12 mb-24">
+    <header class="mt-12 mb-10 md:mb-[72px] lg:mb-24">
       <!-- Navbar Section Start -->
       <section class="mb-9 md:mb-12 lg:mb-10">
         <div class="navbar bg-base-100">
@@ -37,12 +37,14 @@
             <ul class="menu menu-horizontal px-1">
               <li>
                 <a
+                  href="#"
                   class="hover:bg-[#ABEF5F] text-[#737373] text-base font-normal hover:text-[#494949] hover:font-extrabold"
                   >Home</a
                 >
               </li>
               <li>
                 <a
+                  href="#services"
                   class="hover:bg-[#ABEF5F] text-[#737373] text-base font-normal hover:text-[#494949] hover:font-extrabold"
                   >Services</a
                 >
@@ -114,6 +116,7 @@
                 </li>
                 <li>
                   <a
+                    href="#services"
                     class="hover:bg-[#ABEF5F] text-[#737373] text-base font-normal hover:text-[#494949] hover:font-extrabold"
                     >Services</a
                   >
@@ -151,7 +154,7 @@
           class="w-[96%] flex flex-col justify-center items-center text-center gap-6"
         >
           <h1
-            class="text-[#212121] text-[28px] md:text-4xl lg:text-6xl font-extrabold leading-8"
+            class="text-[#212121] text-[28px] md:text-4xl lg:text-6xl font-extrabold leading-8 md:leading-tight lg:leading-tight"
           >
             A barn house of this design has a striking appearance
           </h1>
@@ -177,5 +180,95 @@
       <!-- Hero Section End -->
     </header>
     <!-- Header End -->
+    <!-- Main Section Start -->
+    <main>
+      <!-- Services Section Start -->
+      <section id="services" class="bg-[#F4F4F4] pt-8 md:pt-16 lg:pt-5 pb-24">
+        <div class="hidden md:hidden lg:block w-fit ml-[30px] mb-4">
+          <img src="assets/Vector.png" alt="" />
+        </div>
+        <div class="services_section">
+          <!-- About Container Start -->
+          <div
+            class="flex flex-col md:flex-col lg:flex-col xl:flex-row gap-6 md:gap-6 lg:gap-9 border"
+          >
+            <div
+              class="flex-1 space-y-6 text-center md:text-center lg:text-center xl:text-start"
+            >
+              <div
+                class="w-full flex justify-center md:justify-center lg:justify-center xl:justify-start items-center"
+              >
+                <button
+                  class="btn rounded-full text-[#494949] text-base font-bold bg-[#FFFFFF] hover:bg-[#ABEF5F]"
+                >
+                  <i class="fa-solid fa-arrow-right"></i> About Us
+                </button>
+              </div>
+              <div class="space-y-4 xl:space-y-6">
+                <h3
+                  class="text-[#212121] text-2xl md:text-3xl lg:text-3xl xl:text-[40px] xl:leading-[50px] font-bold w-[90%] lg:w-9/12 mx-auto md:mx-auto lg:mx-auto xl:mx-0"
+                >
+                  We design thoughtful, liveable spaces
+                </h3>
+                <p
+                  class="text-[#494949] text-sm md:text-base lg:text-base font-medium"
+                >
+                  The barn house captivates with its blend of rustic charm and
+                  modern sophistication, featuring weathered wood, sleek metal
+                  accents.
+                </p>
+              </div>
+              <div
+                class="flex flex-col md:flex-row lg:flex-row xl:flex-col gap-6"
+              >
+                <div
+                  class="bg-[#FFFFFF] rounded-2xl flex items-start gap-6 p-6"
+                >
+                  <img src="assets/commercial.png" alt="" />
+                  <div class="space-y-[10px] text-start">
+                    <h5
+                      class="text-[#494949] text-base md:text-lg lg:text-xl font-extrabold"
+                    >
+                      Commercial
+                    </h5>
+                    <p class="text-[#737373] text-base font-medium">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.The barn house captivates with its blend of
+                      rustic charm and modern.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-[#FFFFFF] rounded-2xl flex items-start gap-6 p-6"
+                >
+                  <img src="assets/residential.png" alt="" />
+                  <div class="space-y-[10px] text-start">
+                    <h5
+                      class="text-[#494949] text-base md:text-lg lg:text-xl font-extrabold"
+                    >
+                      Residential
+                    </h5>
+                    <p class="text-[#737373] text-base font-medium">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.The barn house captivates with its blend of
+                      rustic charm and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 w-full rounded-2xl">
+              <img
+                class="w-full h-full rounded-2xl object-cover"
+                src="assets/Rectangle.png"
+              />
+            </div>
+          </div>
+          <!-- About Container Start -->
+        </div>
+      </section>
+      <!-- Services Section End -->
+    </main>
+    <!-- Main Section End -->
   </body>
 </html>
