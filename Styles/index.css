@@ -12,7 +12,8 @@ header,
 .portfolio_section,
 .news_section,
 .feedback,
-.newsletter_section {
+.newsletter_section,
+.footer_section {
   width: 90%;
   margin: 0 auto;
 }
@@ -67,7 +68,7 @@ header,
   }
 }
 
-.newsletter{
+.newsletter {
   background: url("../assets/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
