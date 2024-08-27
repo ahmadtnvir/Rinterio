@@ -8,7 +8,8 @@
 }
 /* Shard Style Start */
 header,
-.services_section {
+.services_section,
+.portfolio_section {
   width: 90%;
   margin: 0 auto;
 }
